@@ -8,15 +8,7 @@
 
 import Foundation
 
-var testString:String = "this is string";
-var testInt:Int = 25;
-var testFloat:Float = 25.9;
-var tesstDouble:Double = 23.444403;
-let testConstant = "Constant";
-print("Hello, World!");
-print("String: \(testString)");
-print("Int: \(testInt)");
-print("Float: \(testFloat)");
-print("Double: \(tesstDouble)");
-print("Constant: \(testConstant)");
+funcWithNoReturnType(person: "Haroon", message: "Welcome!");
+var retMessage: String = funcWithReturnType(person: "Salman Khan", message: "Zama Ror");
+print(retMessage);
 
