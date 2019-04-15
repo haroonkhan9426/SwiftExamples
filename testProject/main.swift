@@ -8,7 +8,13 @@
 
 import Foundation
 
-funcWithNoReturnType(person: "Haroon", message: "Welcome!");
-var retMessage: String = funcWithReturnType(person: "Salman Khan", message: "Zama Ror");
-print(retMessage);
+//Class Initialzation
+var button = ButtonClass(3, 5, "#0232");
+
+print("Width: \(button.getWidth())");
+print("Heigth: \(button.getHeight())");
+print("Color: \(button.getColor())");
+//funcWithNoReturnType(person: "Haroon", message: "Welcome!");
+//var retMessage: String = funcWithReturnType(person: "Salman Khan", message: "Zama Ror");
+//print(retMessage);
 
